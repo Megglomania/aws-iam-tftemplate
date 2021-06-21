@@ -1,5 +1,7 @@
 variable "access_key" {}
-variable "secret_key" {}
+variable "secret_key" {
+  sensitive = true
+}
 variable "region" {
   default = "us-west-2"
 }
